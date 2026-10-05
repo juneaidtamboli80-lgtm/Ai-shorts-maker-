@@ -1,0 +1,6 @@
+{
+  "name": "Veloce Video AI",
+  "description": "Professional mobile AI video editor with auto captions, keyframes, tracking, timeline editing, smart crop and export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
