@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Rounded Video Slate Frame -->
+    <path
+        android:pathData="M32,28 L76,28 A8,8 0 0,1 84,36 L84,72 A8,8 0 0,1 76,80 L32,80 A8,8 0 0,1 24,72 L24,36 A8,8 0 0,1 32,28 Z"
+        android:strokeWidth="3.5"
+        android:fillColor="#151922">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="28"
+                android:endX="84"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6366F1" />
+                <item android:offset="0.5" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Play Triangle -->
+    <path
+        android:pathData="M47,42 L67,54 L47,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="47"
+                android:startY="42"
+                android:endX="67"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- AI Sparkle Top Right -->
+    <path
+        android:pathData="M78,24 L80,29 L85,31 L80,33 L78,38 L76,33 L71,31 L76,29 Z"
+        android:fillColor="#FDE047" />
+
+    <!-- AI Sparkle Bottom Left -->
+    <path
+        android:pathData="M26,72 L27.5,75.5 L31,77 L27.5,78.5 L26,82 L24.5,78.5 L21,77 L24.5,75.5 Z"
+        android:fillColor="#38BDF8" />
+</vector>
